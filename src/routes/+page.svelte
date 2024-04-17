@@ -6,12 +6,6 @@
     onMount(() => {
         let mouseFollower = document.getElementById("following")! // dangerous
 
-        // document.body.onpointerleave = (e) => {
-        //     setTimeout(() => {
-        //         mouseFollower.hidden = true
-        //     }, travelDurationMs)
-        // }
-
         document.body.onpointermove = (e) => {
             let { clientX, clientY } = e
 
@@ -33,25 +27,33 @@
 
 <div id="following" class=""></div>
 
-<div class="rubik-normal custom-bg flex h-full w-full flex-col bg-slate-900 p-20 text-slate-200">
+<div class="rubik-normal flex h-full w-full flex-col bg-slate-900 pb-5 pl-20 pt-20 text-slate-200">
     <h1 class="z-1 text-6xl">Hello there!</h1>
 
     <h2 class="z-1 mt-5 text-3xl text-slate-300">
         Here you can preview all my projects from practicing on <a
             href="https://www.frontendmentor.io"
-            class="font-bold underline underline-offset-4 hover:translate-x-0">Frontend Mentor</a
+            class="mt-1 rounded-2xl bg-opacity-10 p-2 font-bold underline underline-offset-4 hover:translate-x-0 hover:bg-slate-800"
+            >Frontend Mentor</a
         >!
     </h2>
-    <div class="z-1 mt-10 flex w-fit flex-col gap-10 pl-10 text-4xl">
-        <!--        // put links here-->
+    <div class="z-1 mt-10 flex w-fit flex-col gap-10 pl-10 text-4xl hover:text-slate-400">
+        <!--        put links here-->
+    </div>
+
+    <div class="mt-auto text-slate-200 opacity-30">
+        Favicon taken from <a
+            class="underline"
+            href="https://www.flaticon.com/free-icons/curriculum-vitae"
+            title="curriculum vitae icons"
+            >Curriculum vitae icons created by Abdul-Aziz - Flaticon</a
+        >
     </div>
 </div>
 
-<!--<a href="https://www.flaticon.com/free-icons/curriculum-vitae" title="curriculum vitae icons">Curriculum vitae icons created by Abdul-Aziz - Flaticon</a>-->
-
 <style>
     a {
-        @apply transition-all hover:translate-x-4 hover:text-slate-400;
+        @apply transition-all hover:translate-x-4 hover:text-slate-200;
     }
 
     #following {
