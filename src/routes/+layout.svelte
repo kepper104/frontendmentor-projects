@@ -23,7 +23,11 @@
 {/if}
 
 {#if $page.url.pathname !== "/"}
-    <a class="absolute left-10 top-10 rounded-xl bg-slate-50 shadow-lg hover:bg-slate-100" href="/">
+    <a
+        class="absolute left-10 top-10 rounded-xl bg-slate-50 shadow-lg hover:bg-slate-100"
+        aria-label="Go back to homepage"
+        href="/"
+    >
         <ArrowLeft />
     </a>
 {/if}

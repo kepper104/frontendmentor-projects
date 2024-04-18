@@ -8,10 +8,10 @@
     <div class="flex w-[320px] flex-col rounded-xl bg-white p-4 shadow-lg">
         <img src={qrCode} class="rounded-xl" alt="qr code" />
         <div class="my-6 px-4">
-            <h1 class="outfit-header text-header-color text-center">
+            <h1 class="outfit-header text-header-color text-center leading-tight">
                 Improve your front-end skills by building projects
             </h1>
-            <p class="outfit-text text-paragraph-color mt-4 text-center">
+            <p class="outfit-text text-paragraph-color mt-4 text-center leading-tight">
                 Scan the QR code to visit Frontend Mentor and take your coding skills to the next
                 level
             </p>

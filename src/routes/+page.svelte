@@ -41,14 +41,14 @@
         <a href="qr-code"> QR Code </a>
     </div>
 
-    <div class="mt-auto text-slate-200 opacity-30">
+    <footer class="mt-auto text-slate-200 opacity-30">
         Favicon taken from <a
             class="underline"
             href="https://www.flaticon.com/free-icons/curriculum-vitae"
             title="curriculum vitae icons"
             >Curriculum vitae icons created by Abdul-Aziz - Flaticon</a
         >
-    </div>
+    </footer>
 </div>
 
 <style>
