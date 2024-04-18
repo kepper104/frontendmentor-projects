@@ -38,7 +38,7 @@
         >!
     </h2>
     <div class="z-1 mt-10 flex w-fit flex-col gap-10 pl-10 text-4xl hover:text-slate-400">
-        <!--        put links here-->
+        <a href="qr-code"> QR Code </a>
     </div>
 
     <div class="mt-auto text-slate-200 opacity-30">
