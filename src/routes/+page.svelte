@@ -35,10 +35,11 @@
             href="https://www.frontendmentor.io"
             class="mt-1 rounded-2xl bg-opacity-10 p-2 font-bold underline underline-offset-4 hover:translate-x-0 hover:bg-slate-800"
             >Frontend Mentor</a
-        >!
+        >
     </h2>
     <div class="z-1 mt-10 flex w-fit flex-col gap-10 pl-10 text-4xl hover:text-slate-400">
         <a href="qr-code"> QR Code </a>
+        <a href="blog-preview"> Blog preview </a>
     </div>
 
     <footer class="mt-auto text-slate-200 opacity-30">

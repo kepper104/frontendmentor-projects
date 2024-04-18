@@ -2,9 +2,7 @@
     import qrCode from "$lib/qr-code/images/image-qr-code.png"
 </script>
 
-<div
-    class="rubik-normal background-color flex h-full w-full flex-col items-center justify-center p-20"
->
+<div class="palette-yellow-color flex h-full w-full flex-col items-center justify-center p-20">
     <div class="flex w-[320px] flex-col rounded-xl bg-white p-4 shadow-lg">
         <img src={qrCode} class="rounded-xl" alt="qr code" />
         <div class="my-6 px-4">
@@ -44,7 +42,7 @@
     .text-paragraph-color {
         color: hsl(220, 15%, 55%);
     }
-    .background-color {
+    .palette-yellow-color {
         background-color: hsl(212, 45%, 89%);
     }
 </style>
