@@ -24,7 +24,7 @@
         </div>
         <div class="flex flex-row items-center gap-3">
             <img src={userAvatar} alt="avatar" class="h-8 w-8" />
-            <h3 class="text-[14px] font-extrabold">Greg Hooper</h3>
+            <h2 class="text-[14px] font-extrabold">Greg Hooper</h2>
         </div>
     </div>
 </div>
