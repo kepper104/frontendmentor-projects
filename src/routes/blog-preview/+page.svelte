@@ -3,21 +3,20 @@
     import userAvatar from "$lib/blog-preview/assets/images/image-avatar.webp"
 </script>
 
-<div class="palette-yellow-color flex h-full w-full flex-col items-center justify-center p-20">
+<div class="bg-custom-blog_preview-yellow flex h-full w-full flex-col items-center justify-center p-20 leading-[150%]">
     <div
-        id="card"
-        class="figtree flex w-[384px] flex-col gap-6 rounded-[20px] border border-black bg-white p-6 font-medium shadow-lg"
+        class="drop-shadow-[8px_8px_rgba(0,0,0,1)] font-Figtree flex w-[384px] flex-col gap-6 rounded-[20px] border border-black bg-white p-6 font-medium shadow-lg"
     >
-        <img src={illustrationArticle} class="rounded-[10px]" alt="Abstract coding related" />
+        <img src={illustrationArticle} class="rounded-[10px]" alt="Abstract programming related illustration" />
         <div class="flex flex-col gap-3">
             <div
-                class="palette-yellow-color palette-black-color w-fit rounded px-3 py-1 text-[14px] font-extrabold"
+                class="bg-custom-blog_preview-yellow text-custom-blog_preview-black w-fit rounded px-3 py-1 text-[14px] font-extrabold"
             >
                 Learning
             </div>
             <div class="text-[14px]">Published 18 Apr 2024</div>
-            <h1 class="palette-black-color text-2xl font-extrabold">HTML & CSS foundations</h1>
-            <p class=" palette-gray-color text-[16px]">
+            <h1 class="text-custom-blog_preview-black text-2xl font-extrabold">HTML & CSS foundations</h1>
+            <p class=" text-custom-blog_preview-gray text-[16px]">
                 These languages are the backbone of every website, defining structure, content, and
                 presentation.
             </p>
@@ -28,36 +27,3 @@
         </div>
     </div>
 </div>
-
-<style>
-    @font-face {
-        font-family: "Figtree";
-        src:
-            url("/src/lib/blog-preview/assets/fonts/Figtree-VariableFont_wght.ttf")
-                format("truetype supports variations"),
-            url("/src/lib/blog-preview/assets/fonts/Figtree-VariableFont_wght.ttf")
-                format("truetype-variations");
-        font-weight: 100 1000;
-    }
-
-    #card {
-        filter: drop-shadow(8px 8px black);
-    }
-
-    .figtree {
-        font-family: Figtree, sans-serif;
-        line-height: 150%;
-    }
-
-    .palette-yellow-color {
-        background-color: hsl(47, 88%, 63%);
-    }
-
-    .palette-gray-color {
-        color: hsl(0, 0%, 50%);
-    }
-
-    .palette-black-color {
-        color: hsl(0, 0%, 7%);
-    }
-</style>

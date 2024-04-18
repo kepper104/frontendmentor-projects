@@ -27,7 +27,7 @@
 
 <div id="following" class=""></div>
 
-<div class="rubik-normal flex h-full w-full flex-col bg-slate-900 pb-5 pl-20 pt-20 text-slate-200">
+<div class="font-Rubik font-medium flex h-full w-full flex-col bg-slate-900 pb-5 pl-20 pt-20 text-slate-200">
     <h1 class="z-1 text-6xl">Hello there!</h1>
 
     <h2 class="z-1 mt-5 text-3xl text-slate-300">
@@ -54,7 +54,15 @@
 
 <style>
     a {
-        @apply transition-all hover:translate-x-4 hover:text-slate-200;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
+
+        /*@apply transition-all hover:translate-x-4 hover:text-slate-200;*/
+    }
+    a:hover {
+        translate: 4px;
+        color: rgb(226 232 240)
     }
 
     #following {
