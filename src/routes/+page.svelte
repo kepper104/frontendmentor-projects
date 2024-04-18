@@ -27,7 +27,9 @@
 
 <div id="following" class=""></div>
 
-<div class="font-Rubik font-medium flex h-full w-full flex-col bg-slate-900 pb-5 pl-20 pt-20 text-slate-200">
+<div
+    class="flex h-full w-full flex-col bg-slate-900 pb-5 pl-20 pt-20 font-Rubik font-medium text-slate-200"
+>
     <h1 class="z-1 text-6xl">Hello there!</h1>
 
     <h2 class="z-1 mt-5 text-3xl text-slate-300">
@@ -62,7 +64,7 @@
     }
     a:hover {
         translate: 4px;
-        color: rgb(226 232 240)
+        color: rgb(226 232 240);
     }
 
     #following {
