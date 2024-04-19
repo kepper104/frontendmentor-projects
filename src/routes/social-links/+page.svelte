@@ -18,23 +18,23 @@
         </div>
         <div class="flex flex-col gap-5 font-semibold text-white">
             <a
-                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black"
+                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black focus:ring-2 focus:ring-custom-social_links-green"
                 href="/">GitHub</a
             >
             <a
-                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black"
+                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black focus:ring-2 focus:ring-custom-social_links-green"
                 href="/">Frontend Mentor</a
             >
             <a
-                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black"
+                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black focus:ring-2 focus:ring-custom-social_links-green"
                 href="/">LinkedIn</a
             >
             <a
-                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black"
+                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black focus:ring-2 focus:ring-custom-social_links-green"
                 href="/">Twitter</a
             >
             <a
-                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black"
+                class="rounded-lg bg-custom-social_links-gray py-3 text-center transition-all hover:bg-custom-social_links-green hover:text-custom-social_links-off-black focus:ring-2 focus:ring-custom-social_links-green"
                 href="/">Instagram</a
             >
         </div>
