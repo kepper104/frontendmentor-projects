@@ -21,7 +21,10 @@
                 Learning
             </div>
             <div class="text-[14px]">Published 18 Apr 2024</div>
-            <a href="/blog-preview" class="text-2xl font-extrabold text-custom-blog_preview-black hover:text-custom-blog_preview-yellow transition-all">
+            <a
+                href="/blog-preview"
+                class="text-2xl font-extrabold text-custom-blog_preview-black transition-all hover:text-custom-blog_preview-yellow"
+            >
                 HTML & CSS foundations
             </a>
             <p class=" text-[16px] text-custom-blog_preview-gray">

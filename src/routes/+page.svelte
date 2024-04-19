@@ -42,6 +42,7 @@
     <div class="z-1 mt-10 flex w-fit flex-col gap-10 pl-10 text-4xl hover:text-slate-400">
         <a href="qr-code"> QR Code </a>
         <a href="blog-preview"> Blog preview </a>
+        <a href="social-links">Social links</a>
     </div>
 
     <footer class="mt-auto text-slate-200 opacity-30">
@@ -59,9 +60,8 @@
         transition-property: all;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 150ms;
-
-        /*@apply transition-all hover:translate-x-4 hover:text-slate-200;*/
     }
+
     a:hover {
         translate: 4px;
         color: rgb(226 232 240);

@@ -6,7 +6,8 @@ export default {
             fontFamily: {
                 Rubik: ["Rubik", "sans-serif"],
                 Outfit: ["Outfit", "sans-serif"],
-                Figtree: ["Figtree", "sans-serif"]
+                Figtree: ["Figtree", "sans-serif"],
+                Inter: ["Inter", "sans-serif"]
             },
             colors: {
                 "custom-qr-light-gray": "hsl(212, 45%, 89%)",
@@ -15,7 +16,12 @@ export default {
 
                 "custom-blog_preview-yellow": "hsl(47, 88%, 63%)",
                 "custom-blog_preview-gray": "hsl(0, 0%, 50%)",
-                "custom-blog_preview-black": "hsl(0, 0%, 7%)"
+                "custom-blog_preview-black": "hsl(0, 0%, 7%)",
+
+                "custom-social_links-green": "hsl(75, 94%, 57%)",
+                "custom-social_links-gray": "hsl(0, 0%, 20%)",
+                "custom-social_links-dark-gray": "hsl(0, 0%, 12%)",
+                "custom-social_links-off-black": "hsl(0, 0%, 8%)"
             }
         }
     },
