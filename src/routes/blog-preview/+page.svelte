@@ -21,9 +21,9 @@
                 Learning
             </div>
             <div class="text-[14px]">Published 18 Apr 2024</div>
-            <h1 class="text-2xl font-extrabold text-custom-blog_preview-black">
+            <a href="/blog-preview" class="text-2xl font-extrabold text-custom-blog_preview-black hover:text-custom-blog_preview-yellow transition-all">
                 HTML & CSS foundations
-            </h1>
+            </a>
             <p class=" text-[16px] text-custom-blog_preview-gray">
                 These languages are the backbone of every website, defining structure, content, and
                 presentation.
